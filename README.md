@@ -1,16 +1,6 @@
 # Puzzle-Game | Update to Previous Code
 
-- Coding Tutorial: https://youtu.be/S6GNtMGNcUE
-- Demo: https://imkennyyip.github.io/Puzzle-Game/
-
-Introducción
-
-createPuzzlePieces()
-dragStart()
-dragOver()
-dragDrop()
-dragEnd()
-Funcionalidades de la aplicación
+- Demo: https://sebastianszz.github.io/index.html
 
 ## Table of Contents
 

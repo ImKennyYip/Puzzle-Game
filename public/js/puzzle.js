@@ -39,8 +39,8 @@ window.addEventListener("load", function () {
 
   // Creación de las imágenes de las piezas del rompecabezas:
   // Se llama a esta función dos veces: una vez para el contenedor del tablero y otra vez para el contenedor de las piezas del rompecabezas.
-  createPuzzlePieces(boardContainer, "../../public/images/blank-dark.jpg");
-  createPuzzlePieces(piecesContainer, "../../public/images/[number].jpg");
+  createPuzzlePieces(boardContainer, "./public/images/blank-dark.jpg");
+  createPuzzlePieces(piecesContainer, "./public/images/[number].jpg");
 
   // Se crea un array "pieces" de las imágenes de las piezas del rompecabezas y se ordena aleatoriamente mediante el método de "sort".
   let pieces = Array.from(piecesContainer.children);
@@ -121,13 +121,13 @@ window.addEventListener("load", function () {
 
   // La función playSuccessSound reproduce un sonido de éxito cuando se completa una acción de arrastrar.
   function playSuccessSound() {
-    const soundSuccess = new Audio("../../public/sounds/success.wav");
+    const soundSuccess = new Audio("./public/sounds/success.wav");
     soundSuccess.play();
   }
 
   // La función playErrorSound reproduce un sonido de error cuando se completa una acción de arrastrar y se detecta un error.
   function playErrorSound() {
-    const soundError = new Audio("../../public/sounds/error.wav");
+    const soundError = new Audio("./public/sounds/error.wav");
     soundError.play();
   }
 });

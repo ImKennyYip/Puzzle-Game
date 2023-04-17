@@ -1,6 +1,6 @@
 # Puzzle-Game | Update to Previous Code
 
-- Demo: https://sebastianszz.github.io/index.html
+- Demo: https://sebastianszz.github.io
 
 ## Table of Contents
 
